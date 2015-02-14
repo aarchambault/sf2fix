@@ -17,9 +17,9 @@ sf2fix.py inputfolder [replacement soundfont]
 Example
 -------
 sf2fix.py . "/usr/share/sounds/sf2/FluidR3_GM.sf2"
->Scans current folder and searches for *.mmp and *.mmpz files.
->Analyses theses files and searches for "sf2player" instruments.
->If the path to soundfont (in "src" attribute) does not exist, it is 
+> Scans current folder and searches for *.mmp and *.mmpz files.
+> Analyses theses files and searches for "sf2player" instruments.
+> If the path to soundfont (in "src" attribute) does not exist, it is 
 replaced by "/usr/share/sounds/sf2/FluidR3_GM.sf2"
->Modified files are saved in the same folder as input files with "_mod"
+> Modified files are saved in the same folder as input files with "_mod"
 suffix.
